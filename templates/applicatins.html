@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HR Dashboard - HireFlow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">HireFlow Portal</a>
+            <a href="/" class="btn btn-light btn-sm">← Back to Jobs</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 class="mb-3">Submitted Candidate Applications</h3>
+        <div class="card shadow-sm">
+            <table class="table table-striped mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Candidate Name</th>
+                        <th>Email</th>
+                        <th>Applied Role</th>
+                        <th>Company</th>
+                        <th>Skills / Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for app in applications %}
+                    <tr>
+                        <td>{{ app['applicant_name'] }}</td>
+                        <td>{{ app['applicant_email'] }}</td>
+                        <td><span class="badge bg-primary">{{ app['job_title'] }}</span></td>
+                        <td>{{ app['company'] }}</td>
+                        <td>{{ app['skills'] }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-center text-muted py-4">No applications submitted yet. Go apply for a job!</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

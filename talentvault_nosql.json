@@ -1,0 +1,79 @@
+{
+    "jobs_collection": {
+        "1": {
+            "role": "AI & Machine Learning Developer",
+            "organization": "NeuralPulse Labs",
+            "city": "Mumbai / Hybrid",
+            "package": "\u20b99,50,000/yr",
+            "tags": [
+                "Python",
+                "OpenCV",
+                "NLP",
+                "PyTorch"
+            ],
+            "summary": "Develop real-time computer vision and natural language processing pipelines."
+        },
+        "2": {
+            "role": "Full-Stack Flask & NoSQL Engineer",
+            "organization": "StackWave Technologies",
+            "city": "Bengaluru",
+            "package": "\u20b97,80,000/yr",
+            "tags": [
+                "Python",
+                "Flask",
+                "TinyDB",
+                "Bootstrap"
+            ],
+            "summary": "Build rapid web applications backed by schema-less JSON document stores."
+        },
+        "3": {
+            "role": "Data Science Intern",
+            "organization": "QuantMetrics India",
+            "city": "Pune / Remote",
+            "package": "\u20b928,000/mo",
+            "tags": [
+                "Python",
+                "Pandas",
+                "SQL",
+                "Visualization"
+            ],
+            "summary": "Clean, model, and visualize large-scale product telemetry datasets."
+        },
+        "4": {
+            "role": "Cloud & NoSQL Database Administrator",
+            "organization": "AeroData Systems",
+            "city": "Hyderabad",
+            "package": "\u20b98,40,000/yr",
+            "tags": [
+                "MongoDB",
+                "JSON",
+                "Indexing",
+                "Security"
+            ],
+            "summary": "Design high-throughput document collections and automated backup workflows."
+        },
+        "5": {
+            "role": "python engineer",
+            "organization": "work from home",
+            "city": "mumbai",
+            "package": "500000",
+            "tags": [
+                "python mongo db"
+            ],
+            "summary": "can work with python html and mongo db"
+        }
+    },
+    "applications_collection": {
+        "1": {
+            "job_doc_id": 3,
+            "role": "Data Science Intern",
+            "organization": "QuantMetrics India",
+            "candidate_name": "bharavi dhuri",
+            "email": "bharavid09@gmail.com",
+            "experience": "Fresher / Student",
+            "skills": "python mongo db",
+            "status": "Submitted",
+            "applied_at": "2026-11-15 15:08:41"
+        }
+    }
+}
